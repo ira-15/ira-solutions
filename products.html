@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Our Products - Your Business Name</title>
+    <!-- Tailwind CSS CDN (Ensure this is included in all your pages) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* ADDED Ubuntu Font and Magenta Color Definition */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Ubuntu:wght@700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .font-ubuntu { font-family: 'Ubuntu', sans-serif; }
+        .text-magenta { color: #FF00FF; }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen">
+
+    <!-- Navigation Bar (Ensure this is identical to index.html and links are correct) -->
+    <nav class="bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- LOGO UPDATED -->
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="text-2xl font-bold font-ubuntu text-magenta">Ira Solutions</a>
+                </div>
+                <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+                    <a href="index.html" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Home</a>
+                    <a href="about.html" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">About Us</a>
+                    <!-- Active Link Styling -->
+                    <a href="products.html" class="border-indigo-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Our Products</a>
+                    <a href="contact.html" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="py-12 md:py-16">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 text-center mb-10">Explore Our Innovative Products</h1>
+            
+            <div class="space-y-12">
+
+                <!-- Product 1: Broom Stand -->
+                <div class="bg-white p-6 md:p-8 rounded-lg shadow-xl flex flex-col md:flex-row items-start md:space-x-8">
+                    <!-- Image placeholder -->
+                    <div class="w-full md:w-1/3 flex-shrink-0 mb-6 md:mb-0">
+                        <!-- UPDATED IMAGE PATH -->
+                        <img src="images/broom_stand.jpg" alt="Image of Broom Stand" class="w-full h-auto object-cover rounded-lg shadow-md border border-gray-100">
+                    </div>
+                    <!-- Product Description -->
+                    <div class="w-full md:w-2/3">
+                        <h2 class="text-3xl font-bold text-indigo-600 mb-3">Broom Stand</h2>
+                        <p class="text-lg text-gray-700 mb-4">
+                            Our <strong>Broom Stand</strong> is designed to stand firmly on the floor without support. It provides a neat and convenient way to store one broom along with a dustpan, keeping your space organized and clutter-free.
+                        </p>
+                        <p class="text-md text-gray-600 font-medium">
+                            We also offer a <strong>4-broom variant</strong>, perfect for households or spaces that need extra storage.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Product 2: Towel Stand -->
+                <div class="bg-white p-6 md:p-8 rounded-lg shadow-xl flex flex-col md:flex-row items-start md:space-x-8">
+                    <!-- Image placeholder -->
+                    <div class="w-full md:w-1/3 flex-shrink-0 mb-6 md:mb-0">
+                        <!-- UPDATED IMAGE PATH -->
+                        <img src="images/towel_stand.jpg" alt="Image of Towel Stand" class="w-full h-auto object-cover rounded-lg shadow-md border border-gray-100">
+                    </div>
+                    <!-- Product Description -->
+                    <div class="w-full md:w-2/3">
+                        <h2 class="text-3xl font-bold text-indigo-600 mb-3">Towel Stand</h2>
+                        <p class="text-lg text-gray-700 mb-4">
+                            Our <strong>Towel Stand</strong> features an innovative freestanding design that can hold up to two towels with ease. Its versatile structure makes it more than just a towel holder — it can also be used to <strong>organize ties, jewelry, handbags, and more</strong>, bringing both practicality and style to your space.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Product 3: Tripod Laptop Stand -->
+                <div class="bg-white p-6 md:p-8 rounded-lg shadow-xl flex flex-col md:flex-row items-start md:space-x-8">
+                    <!-- Image placeholder -->
+                    <div class="w-full md:w-1/3 flex-shrink-0 mb-6 md:mb-0">
+                        <!-- UPDATED IMAGE PATH -->
+                        <img src="images/laptop_stand.jpg" alt="Image of Tripod Laptop Stand" class="w-full h-auto object-cover rounded-lg shadow-md border border-gray-100">
+                    </div>
+                    <!-- Product Description -->
+                    <div class="w-full md:w-2/3">
+                        <h2 class="text-3xl font-bold text-indigo-600 mb-3">Tripod Laptop Stand</h2>
+                        <p class="text-lg text-gray-700 mb-4">
+                            Our <strong>Tripod Laptop Stand</strong> combines innovation with convenience, offering a comfortable way to <strong>work while standing</strong>. Its lightweight, portable design makes it easy to carry and quick to set up, wherever you go.
+                        </p>
+                        <p class="text-md text-gray-600 font-medium">
+                            Beyond laptops, it can also be used as a stand for <strong>projectors, a temporary work desk, or even a handy surface for storage</strong>. A versatile solution for home, office, or on-the-go use.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Product 4: Portable Baby Proof Gate -->
+                <div class="bg-white p-6 md:p-8 rounded-lg shadow-xl flex flex-col md:flex-row items-start md:space-x-8">
+                    <!-- Image placeholder -->
+                    <div class="w-full md:w-1/3 flex-shrink-0 mb-6 md:mb-0">
+                        <!-- UPDATED IMAGE PATH -->
+                        <img src="images/baby_gate.jpg" alt="Image of Portable Baby Proof Gate" class="w-full h-auto object-cover rounded-lg shadow-md border border-gray-100">
+                    </div>
+                    <!-- Product Description -->
+                    <div class="w-full md:w-2/3">
+                        <h2 class="text-3xl font-bold text-indigo-600 mb-3">Portable Baby Proof Gate</h2>
+                        <p class="text-lg text-gray-700 mb-4">
+                            Keeping your little one safe has never been easier. Our <strong>Portable Baby Proof Gate</strong> creates a secure barrier to prevent children from entering unwanted areas, giving you peace of mind at home or on the go.
+                        </p>
+                        <p class="text-md text-gray-600 font-medium">
+                            Designed with both safety and convenience in mind, it is <strong>lightweight, easy to install, and fully portable</strong>. Whether you need it for doorways, staircases, or any other space, this versatile gate adapts effortlessly to your home while ensuring your child stays protected.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (Using the same structure as the index page) -->
+    <footer class="bg-white border-t border-gray-200 mt-12 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <!-- Link color updated from text-gray-500 to text-gray-700 -->
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-4 text-sm text-gray-700 mb-4">
+                <a href="https://general-random-files.s3.ap-southeast-1.amazonaws.com/privacy_policy.html" target="_blank" class="hover:text-indigo-600 transition">Privacy Policy</a>
+                <a href="https://general-random-files.s3.ap-southeast-1.amazonaws.com/Return%26Refund_Policy.html" target="_blank" class="hover:text-indigo-600 transition">Return & Refund Policy</a>
+                <a href="https://general-random-files.s3.ap-southeast-1.amazonaws.com/Shipping_Policy.html" target="_blank" class="hover:text-indigo-600 transition">Shipping Policy</a>
+                <a href="https://general-random-files.s3.ap-southeast-1.amazonaws.com/Shipping_Policy.html" target="_blank" class="hover:text-indigo-600 transition">Terms of Service</a>
+                <a href="https://general-random-files.s3.ap-southeast-1.amazonaws.com/contact_details.html" target="_blank" class="hover:text-indigo-600 transition">Contact Details</a>
+            </div>
+            <!-- COPYRIGHT TEXT UPDATED -->
+            <p class="mt-4 text-gray-400"><span class="font-ubuntu text-magenta">&copy; 2025 Ira Solutions. All rights reserved.</span></p>
+        </div>
+    </footer>
+</body>
+</html>
